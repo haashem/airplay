@@ -1,0 +1,40 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_to_airplay (0.0.1):
+    - Flutter
+    - Mux-Stats-AVPlayer
+  - Mux-Stats-AVPlayer (4.1.0):
+    - Mux-Stats-Core (= 5.1.0)
+  - Mux-Stats-Core (5.1.0)
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_to_airplay (from `.symlinks/plugins/flutter_to_airplay/ios`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - Mux-Stats-AVPlayer
+    - Mux-Stats-Core
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_to_airplay:
+    :path: ".symlinks/plugins/flutter_to_airplay/ios"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/darwin"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_to_airplay: 3194fe6e4ca6ba1d9529c3c4194c32b9610d990f
+  Mux-Stats-AVPlayer: f56ddbd8c47bf8f86cb796a21dd7f1f38f6d1e33
+  Mux-Stats-Core: 0886b1720a2eacfeb01cc81a462c0d0274350412
+  video_player_avfoundation: 7c6c11d8470e1675df7397027218274b6d2360b3
+
+PODFILE CHECKSUM: 4305caec6b40dde0ae97be1573c53de1882a07e5
+
+COCOAPODS: 1.16.2
